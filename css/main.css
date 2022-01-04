@@ -1,0 +1,33 @@
+
+
+
+
+.section-title::before {
+
+    content: '';
+    width: 100px;
+    height: 150px;
+
+   
+    
+}
+
+
+
+.section-title {
+   
+    width: 100px;
+    height: 150px;
+    border-radius: 5% 70% 20%;
+    border: 10px solid black;
+    position: absolute;
+    margin-top: 20%;
+    left: 50%;
+    background-color: yellow;
+    transform: rotate(70deg);
+   
+}
+
+.text {
+    transform: rotate(-68deg);
+}
